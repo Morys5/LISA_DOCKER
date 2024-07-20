@@ -1,0 +1,3 @@
+[submodule "lisa_ws/src/estrutura"]
+	path = lisa_ws/src/estrutura
+	url = https://github.com/Grupo-SEMEAR-USP/Lisa.git
