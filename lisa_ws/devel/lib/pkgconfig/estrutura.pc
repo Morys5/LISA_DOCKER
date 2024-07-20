@@ -1,0 +1,8 @@
+prefix=/home/lisa/lisa_ws/devel
+
+Name: estrutura
+Description: Description of estrutura
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
