@@ -21,6 +21,8 @@ sleep_timeout = 300  # 5 minutos em segundos
 sleep_gif_name = 'animated_sleepy.gif'
 is_sleeping = False  # Novo estado para verificar se está no modo sleep
 
+#funciona
+
 def play_gif(gif_name):
     global current_process, current_gif, last_gif_time
     try:
