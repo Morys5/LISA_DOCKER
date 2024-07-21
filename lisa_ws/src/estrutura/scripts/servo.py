@@ -5,6 +5,8 @@ import time
 import pigpio
 from std_msgs.msg import Int32
 
+#a
+
 class ServoController:
     def __init__(self):
         # Conectar ao daemon pigpio
