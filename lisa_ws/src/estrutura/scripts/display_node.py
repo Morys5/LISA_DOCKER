@@ -12,8 +12,6 @@ current_process = None
 current_gif = None  # Iniciar com None para forçar a atualização
 last_state = None
 
-#a
-
 educativo = 1
 last_educativo = 1
 
