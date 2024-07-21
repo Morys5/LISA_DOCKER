@@ -34,7 +34,7 @@ def play_gif(gif_name):
             return
 
         # Certifique-se de que a variável DISPLAY está configurada para :0
-        # os.environ['DISPLAY'] = ':0'
+        os.environ['DISPLAY'] = ':0'
 
         # Comando para executar o mpv com um método de saída de vídeo específico
         command = ['mpv', '--fullscreen', '--loop=inf', '--vo=gpu', '--gpu-context=x11egl', gif_path]
