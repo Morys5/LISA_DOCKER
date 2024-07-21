@@ -49,6 +49,10 @@ RUN apt-get update \
     && apt-get install -y mpv \
     && rm -rf /var/lib/apt/lists/*
 
+#ROSSerial
+RUN apt-get update \
+    && apt-get install -y ros-noetic-rosserial-arduino ros-noetic-rosserial 
+
 # Configurando o entrypoint script e bashrc
 COPY config/entrypoint.sh /entrypoint.sh
 COPY config/bashrc /home/${USERNAME}/.bashrc

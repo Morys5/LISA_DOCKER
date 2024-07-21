@@ -8,3 +8,4 @@
 
 # modified environment variables
 export PWD='/home/lisa/lisa_ws/build'
+export PYTHONPATH="/home/lisa/lisa_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
